@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+    border: 4px solid #352921; 
+    height: 100vh;
+    width: 100vw;
+}
+.header {
+    -webkit-app-region: drag;
+    background-image: url("mainWindow.img/header.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 93px;
+    z-index: 80;
+}
+.closeHandle {
+    -webkit-app-region: no-drag;
+    background-image: url("mainWindow.img/closeHandle_1.png");
+    z-index: 99;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    height: 32px;
+    width: 32px;
+    outline: none;
+}
+.closeHandle:hover {background-image: url("mainWindow.img/closeHandle_2.png");}
