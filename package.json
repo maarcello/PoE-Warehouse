@@ -1,0 +1,27 @@
+{
+  "name": "poe-warehouse",
+  "version": "1.0.0",
+  "description": "PoE-Warehouse",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maarcello/PoE-Warehouse.git"
+  },
+  "keywords": [
+    "path",
+    "of",
+    "exile"
+  ],
+  "author": "Marcel Radhouani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maarcello/PoE-Warehouse/issues"
+  },
+  "homepage": "https://github.com/maarcello/PoE-Warehouse#readme",
+  "dependencies": {
+    "electron": "^4.1.4"
+  }
+}
